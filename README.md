@@ -1,4 +1,4 @@
-Hutsch mobile app Clone (Educational Project) This repository contains the fluttar clone project for Hutch App, built purely for educational purposes to explore modern mobile app development technologies and practices.
+Hutch mobile app Clone (Educational Project) This repository contains the fluttar clone project for Hutch App, built purely for educational purposes to explore modern mobile app development technologies and practices.
 
 ⚠️ Important Disclaimer ⚠️ This project is developed solely for educational and learning purposes. It is intended to demonstrate mobile app development skills and the implementation of UI/UX concepts based on existing designs. This project is not affiliated with, endorsed by, or in any way officially connected to Hutchison Telecommunications Lanka (Pvt) Ltd. All trademarks and registered trademarks are the property of their respective owners.
 
