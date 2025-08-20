@@ -39,11 +39,11 @@ class _MainPageState extends State<MainPage> {
 
 
   final List<Map<String, dynamic>> _pages = [
-    {"page": HomePage(), "title": "Home"},
+    {"page": HomePage(), "title": "HUTCH"},
+    {"page": LoyaltyPage(), "title": "Junior Internet"},
     {"page": LoyaltyPage(), "title": "Loyalty"},
-    {"page": LoyaltyPage(), "title": "Loyalty"},
-    {"page": LoyaltyPage(), "title": "Loyalty"},
-    {"page": LoyaltyPage(), "title": "Loyalty"}
+    {"page": LoyaltyPage(), "title": "Packages"},
+    {"page": LoyaltyPage(), "title": "VAS"}
   ];
 
 
@@ -103,10 +103,10 @@ class _MainPageState extends State<MainPage> {
         onTap: _onItemTapped,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-          BottomNavigationBarItem(icon: Icon(Icons.search), label: "Junior Internet"),
+          BottomNavigationBarItem(icon: Icon(Icons.shield), label: "Junior Internet"),
           BottomNavigationBarItem(icon: Icon(Icons.handshake), label: "loyalty"),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: "Packages"),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: "VAS"),
+          BottomNavigationBarItem(icon: Icon(Icons.book), label: "Packages"),
+          BottomNavigationBarItem(icon: Icon(Icons.star), label: "VAS"),
 
 
 
