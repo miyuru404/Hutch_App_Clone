@@ -1,4 +1,3 @@
-import 'package:fluttartest/home_page.dart';
 import 'package:flutter/material.dart';
 
 class LoyaltyPage extends StatefulWidget{

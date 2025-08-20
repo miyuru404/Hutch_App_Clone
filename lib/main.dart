@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'home_page.dart';
-import 'loyalty_page.dart';
+import 'screens/home_page.dart';
+import 'screens/loyalty_page.dart';
 
 void main() {
   runApp(const MyApp());

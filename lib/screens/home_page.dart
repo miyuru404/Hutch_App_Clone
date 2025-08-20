@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../ widgets/home_page_reuse_card.dart';
+import 'loyalty_page.dart';
+
 class HomePage extends StatefulWidget{
 
   const HomePage({super.key});
@@ -22,7 +25,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
+      body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Card(
@@ -199,6 +202,13 @@ class _HomePageState extends State<HomePage> {
 
                   ),
               ),
+            ReuseCard(icon: Icons.handshake, title: '',),
+            ReuseCard(icon: Icons.wb_sunny_outlined, title: '',),
+            ReuseCard(icon: Icons.nightlight_outlined, title: '',),
+            ReuseCard(icon: Icons.access_time, title: '',),
+            ReuseCard(icon: Icons.call_outlined, title: '',),
+            ReuseCard(icon: Icons.call_outlined, title: '',),
+            ReuseCard(icon: Icons.email_outlined, title: '',),
           ],
         ),
       ),
